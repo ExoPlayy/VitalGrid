@@ -1,49 +1,45 @@
 const games = [
   {
     number: "01",
-    title: "NEX//GRID",
-    type: "TACTICAL ROGUELITE",
-    status: "IN DEVELOPMENT",
-    copy: "Build your crew. Take the network. Every decision shifts the balance of power.",
-    className: "game-nex",
+    title: "ORBITAL CHECKPOINT",
+    type: "SCI-FI BORDER CONTROL SIM",
+    status: "RELEASE · AUG 27, 2026",
+    copy: "Inspect alien documents, scan suspicious luggage, uncover contraband, and keep station GSA-42 running — one shift at a time.",
+    className: "game-orbital",
+    href: "https://store.steampowered.com/app/3594540/Orbital_Checkpoint/",
+    cta: "WISHLIST ON STEAM",
     visual: (
-      <div className="nex-visual" aria-hidden="true">
-        <div className="nex-orb" />
-        <div className="nex-cross nex-cross-one">+</div>
-        <div className="nex-cross nex-cross-two">+</div>
-        <div className="nex-coordinate">X 34.12 / Y 88.04</div>
-      </div>
+      <img src="/games/orbital-checkpoint.jpg" alt="Orbital Checkpoint gameplay showing an alien traveller and a galactic passport at the inspection desk" />
     ),
   },
   {
     number: "02",
-    title: "BLIGHT",
-    type: "SURVIVAL HORROR",
-    status: "COMING SOON",
-    copy: "The city breathes after dark. You just need to make it until dawn.",
-    className: "game-blight",
+    title: "CRATEBREAKER: WASTELAND WORKSHOP",
+    type: "IDLE CLICKER / STRATEGY",
+    status: "RELEASE · NOV 16, 2026",
+    copy: "Smash crates, salvage relics, automate a wasteland workshop, and turn a broken shelter into a machine built to survive.",
+    className: "game-cratebreaker",
+    href: "https://store.steampowered.com/app/4924680/Cratebreaker_Wasteland_Workshop/",
+    cta: "WISHLIST ON STEAM",
     visual: (
-      <div className="blight-visual" aria-hidden="true">
-        <div className="blight-moon" />
-        <div className="blight-tower" />
-        <div className="blight-fog blight-fog-one" />
-        <div className="blight-fog blight-fog-two" />
-      </div>
+      <img src="/games/cratebreaker.jpg" alt="Cratebreaker Wasteland Workshop gameplay showing the workshop, salvage crates, and inventory" />
     ),
   },
   {
     number: "03",
-    title: "AEROSTEP",
-    type: "ARCADE PLATFORMER",
-    status: "PLAYABLE PROTOTYPE",
-    copy: "Climb higher. Break the rules of gravity. Never look back.",
-    className: "game-aero",
+    title: "FORMONS FARM",
+    type: "IN PRODUCTION",
+    status: "DEMO READY · REVEAL SOON",
+    copy: "A new Vital Grid world is growing behind closed doors. The demo is ready. The signal goes live soon.",
+    className: "game-formons",
+    href: "#contact",
+    cta: "REVEAL INCOMING",
     visual: (
-      <div className="aero-visual" aria-hidden="true">
-        <div className="aero-sun" />
-        <div className="aero-platform aero-platform-one" />
-        <div className="aero-platform aero-platform-two" />
-        <div className="aero-runner">↗</div>
+      <div className="formons-visual" aria-hidden="true">
+        <div className="formons-scanline" />
+        <div className="formons-field">FORMONS<br />FARM</div>
+        <div className="formons-signal"><span /><span /><span /></div>
+        <div className="formons-code">VG / PROJECT 03 / SIGNAL LOCKED</div>
       </div>
     ),
   },
@@ -109,7 +105,12 @@ export default function Home() {
                   <h3>{game.title}</h3>
                 </div>
                 <p>{game.copy}</p>
-                <a href="#contact" aria-label={`Ask about ${game.title}`}>DISCOVER THE GAME <span>↗</span></a>
+                <a
+                  href={game.href}
+                  target={game.href.startsWith("http") ? "_blank" : undefined}
+                  rel={game.href.startsWith("http") ? "noreferrer" : undefined}
+                  aria-label={`${game.cta}: ${game.title}`}
+                >{game.cta} <span>↗</span></a>
               </div>
             </article>
           ))}
