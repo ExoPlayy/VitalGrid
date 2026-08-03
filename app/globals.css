@@ -73,19 +73,10 @@ h1 em, h2 em { font-style: normal; color: transparent; -webkit-text-stroke: 1px 
 .game-type { margin: 0 0 18px; font: 600 9px/1 var(--font-geist-mono), monospace; letter-spacing: .16em; color: #73776f; }
 .game-copy h3 { font-size: clamp(48px, 5.5vw, 84px); overflow-wrap: anywhere; }
 .game-cratebreaker .game-copy h3 { font-size: clamp(42px, 4.5vw, 70px); }
+.game-ministry .game-copy h3 { font-size: clamp(38px, 4.1vw, 64px); }
 .game-copy > p { width: min(330px, 100%); font-size: 15px; line-height: 1.55; color: #61665f; }
 .game-copy a { justify-self: start; padding-bottom: 8px; border-bottom: 1px solid #9da198; font: 600 10px/1 var(--font-geist-mono), monospace; letter-spacing: .12em; }
 .game-copy a span { color: #497a00; margin-left: 30px; }
-.formons-visual { position: absolute; inset: 0; overflow: hidden; background: radial-gradient(circle at 60% 46%,#243716 0,#11190e 38%,#070907 72%); }
-.formons-visual:before { content: ""; position: absolute; inset: 0; opacity: .45; background-image: linear-gradient(rgba(185,255,60,.11) 1px,transparent 1px),linear-gradient(90deg,rgba(185,255,60,.11) 1px,transparent 1px); background-size: 38px 38px; transform: perspective(430px) rotateX(58deg) scale(1.7); transform-origin: 50% 100%; }
-.formons-visual:after { content: ""; position: absolute; width: 55%; height: 150%; left: 25%; top: -25%; background: linear-gradient(90deg,transparent,rgba(185,255,60,.09),transparent); transform: rotate(18deg); }
-.formons-field { position: absolute; z-index: 2; left: 50%; top: 50%; transform: translate(-50%,-50%); color: transparent; -webkit-text-stroke: 1px rgba(185,255,60,.75); font-size: clamp(54px,7vw,108px); font-weight: 800; line-height: .78; letter-spacing: -.08em; text-align: center; white-space: nowrap; }
-.formons-signal { position: absolute; width: 270px; height: 270px; left: 50%; top: 50%; transform: translate(-50%,-50%); opacity: .55; }
-.formons-signal span { position: absolute; inset: 0; border: 1px solid var(--acid); border-radius: 50%; }.formons-signal span:nth-child(2){inset:18%}.formons-signal span:nth-child(3){inset:38%;background:rgba(185,255,60,.2)}
-.formons-code { position: absolute; z-index: 2; right: 18px; top: 18px; color: #a3b28f; font: 500 8px var(--font-geist-mono); letter-spacing: .1em; }
-.formons-scanline { position: absolute; z-index: 3; left: 0; right: 0; height: 1px; top: 18%; background: var(--acid); box-shadow: 0 0 18px var(--acid); opacity: .5; animation: scan 4.5s ease-in-out infinite alternate; }
-@keyframes scan { to { top: 82%; } }
-
 .manifesto { padding: 110px 5.5vw 120px; position: relative; overflow: hidden; }
 .manifesto:before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 70% 30%,rgba(185,255,60,.07),transparent 38%), linear-gradient(135deg,transparent 0 49.8%,rgba(185,255,60,.08) 50%,transparent 50.2%); }
 .section-kicker.light p { border-color: var(--line); }
@@ -117,4 +108,4 @@ footer p, footer a { font: 500 8px var(--font-geist-mono); letter-spacing: .12em
   .header-cta{font-size:0}.header-cta span{font-size:17px;margin:0}.hero{min-height:720px}.hero-grid{background-size:42px 42px}.eyebrow{font-size:8px}h1{font-size:16vw}.hero-bottom{display:block}.hero-bottom .text-link{display:inline-block;margin-top:30px}.section-heading h2,.manifesto h2,.contact h2{font-size:16vw}.game-image{min-height:300px}.game-copy{min-height:260px}.game-copy h3{font-size:14vw}.stats{grid-template-columns:1fr}.stats>div{padding:28px 0;border-right:0;border-bottom:1px solid var(--line);display:flex;align-items:center}.stats>div:last-child{padding-left:0}.stats strong{width:100px}.contact{padding:100px 5vw}.contact-link{font-size:9px}.contact-link span{margin-left:15px}footer{grid-template-columns:1fr;gap:22px;padding:45px 5vw;text-align:center}footer p,footer>div{text-align:center}
 }
 
-@media (prefers-reduced-motion: reduce) { html{scroll-behavior:auto}.signal-two,.signal-core,.formons-scanline{animation:none} }
+@media (prefers-reduced-motion: reduce) { html{scroll-behavior:auto}.signal-two,.signal-core{animation:none} }

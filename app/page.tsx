@@ -28,19 +28,27 @@ const games = [
   {
     number: "03",
     title: "FORMONS FARM",
-    type: "IN PRODUCTION",
+    type: "COZY CREATURE-COLLECTING RPG",
     status: "DEMO READY · REVEAL SOON",
-    copy: "A new Vital Grid world is growing behind closed doors. The demo is ready. The signal goes live soon.",
+    copy: "Restore a forgotten homestead, befriend and train magical Formons, and put their unique abilities to work across farming, exploration, and turn-based battles.",
     className: "game-formons",
     href: "#contact",
     cta: "REVEAL INCOMING",
     visual: (
-      <div className="formons-visual" aria-hidden="true">
-        <div className="formons-scanline" />
-        <div className="formons-field">FORMONS<br />FARM</div>
-        <div className="formons-signal"><span /><span /><span /></div>
-        <div className="formons-code">VG / PROJECT 03 / SIGNAL LOCKED</div>
-      </div>
+      <img src="/games/formons-farm.jpg" alt="Formons Farm key art showing magical creatures on a cozy farm at sunset" />
+    ),
+  },
+  {
+    number: "04",
+    title: "MINISTRY OF APOCALYPSE PREPAREDNESS",
+    type: "INCREMENTAL STRATEGY / DARK COMEDY",
+    status: "IN DEVELOPMENT",
+    copy: "Build bunkers, manage national crises, expand government departments, and make impossible decisions to keep the country prepared — at least on paper.",
+    className: "game-ministry",
+    href: "#contact",
+    cta: "MORE SOON",
+    visual: (
+      <img src="/games/ministry-of-apocalypse-preparedness.png" alt="Ministry of Apocalypse Preparedness key art showing an underground government crisis room and strategic map" />
     ),
   },
 ];
@@ -128,7 +136,7 @@ export default function Home() {
           </div>
         </div>
         <div className="stats" aria-label="Studio facts">
-          <div><strong>03</strong><span>TITLES<br />IN PRODUCTION</span></div>
+          <div><strong>04</strong><span>TITLES<br />IN PRODUCTION</span></div>
           <div><strong>∞</strong><span>IDEAS<br />IN THE QUEUE</span></div>
           <div><strong>01</strong><span>SHARED<br />VISION</span></div>
         </div>
