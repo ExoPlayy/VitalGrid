@@ -103,6 +103,19 @@ const games = [
       <img src="/games/alien-invasion-inc.png" alt="Alien Invasion Inc. key art showing a global invasion command map, terror levels, and Earth defense status" />
     ),
   },
+  {
+    number: "09",
+    title: "PARADISE CONTROL",
+    type: "AIRPORT CUSTOMS INSPECTION GAME",
+    status: "IN DEVELOPMENT",
+    copy: "Run a chaotic customs checkpoint on a paradise island. Inspect passports, scan baggage, question suspicious travelers, and expose contraband networks before they reach Europe or the USA.",
+    className: "game-paradise-control",
+    href: "#contact",
+    cta: "MORE SOON",
+    visual: (
+      <img src="/games/paradise-control.png" alt="Paradise Control key art showing suspicious travelers and luggage at a tropical island airport customs checkpoint" />
+    ),
+  },
 ];
 
 function Logo() {
@@ -188,7 +201,7 @@ export default function Home() {
           </div>
         </div>
         <div className="stats" aria-label="Studio facts">
-          <div><strong>08</strong><span>TITLES<br />IN PRODUCTION</span></div>
+          <div><strong>09</strong><span>TITLES<br />IN PRODUCTION</span></div>
           <div><strong>∞</strong><span>IDEAS<br />IN THE QUEUE</span></div>
           <div><strong>01</strong><span>SHARED<br />VISION</span></div>
         </div>
