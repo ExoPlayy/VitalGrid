@@ -224,7 +224,7 @@ export default function Home() {
         <div className="contact-signal" aria-hidden="true"><span /><span /><span /></div>
         <p>GOT A PROJECT, AN IDEA, OR JUST WANT TO TALK?</p>
         <h2 id="contact-title">LET&apos;S GET<br />ON THE <em>SAME GRID.</em></h2>
-        <a className="contact-link" href="mailto:hello@vitalgrid.games">HELLO@VITALGRID.GAMES <span>↗</span></a>
+        <a className="contact-link" href="mailto:victor@vitalgrid.com">VICTOR@VITALGRID.COM <span>↗</span></a>
       </section>
 
       <footer>
