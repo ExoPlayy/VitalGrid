@@ -90,6 +90,19 @@ const games = [
       <img src="/games/clean-cash-syndicate-front.png" alt="Clean Cash Syndicate Front key art showing a neon city, automated fronts, and Federal Heat systems" />
     ),
   },
+  {
+    number: "08",
+    title: "ALIEN INVASION INC.",
+    type: "GLOBAL INVASION STRATEGY SIMULATOR",
+    status: "IN DEVELOPMENT",
+    copy: "Command an alien operation to destabilize Earth. Choose priority regions, evolve invasion methods, spread panic, infiltrate humanity, and enslave the planet before global defense is complete.",
+    className: "game-alien-invasion",
+    href: "#contact",
+    cta: "MORE SOON",
+    visual: (
+      <img src="/games/alien-invasion-inc.png" alt="Alien Invasion Inc. key art showing a global invasion command map, terror levels, and Earth defense status" />
+    ),
+  },
 ];
 
 function Logo() {
@@ -175,7 +188,7 @@ export default function Home() {
           </div>
         </div>
         <div className="stats" aria-label="Studio facts">
-          <div><strong>07</strong><span>TITLES<br />IN PRODUCTION</span></div>
+          <div><strong>08</strong><span>TITLES<br />IN PRODUCTION</span></div>
           <div><strong>∞</strong><span>IDEAS<br />IN THE QUEUE</span></div>
           <div><strong>01</strong><span>SHARED<br />VISION</span></div>
         </div>
