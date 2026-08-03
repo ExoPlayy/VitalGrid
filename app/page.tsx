@@ -116,6 +116,19 @@ const games = [
       <img src="/games/paradise-control.png" alt="Paradise Control key art showing suspicious travelers and luggage at a tropical island airport customs checkpoint" />
     ),
   },
+  {
+    number: "10",
+    title: "WASTELAND COUNTER",
+    type: "POST-APOCALYPTIC TRADING / MANAGEMENT",
+    status: "IN DEVELOPMENT",
+    copy: "Run the last trading counter in the wasteland. Bargain with dangerous strangers, collect rare relics, survive raids and moral dilemmas, and turn a rusted shack into the region’s most powerful trading post.",
+    className: "game-wasteland-counter",
+    href: "#contact",
+    cta: "MORE SOON",
+    visual: (
+      <img src="/games/wasteland-counter.webp" alt="Wasteland Counter key art showing a dangerous trader offering rare relics across a post-apocalyptic counter" />
+    ),
+  },
 ];
 
 function Logo() {
@@ -201,7 +214,7 @@ export default function Home() {
           </div>
         </div>
         <div className="stats" aria-label="Studio facts">
-          <div><strong>09</strong><span>TITLES<br />IN PRODUCTION</span></div>
+          <div><strong>10</strong><span>TITLES<br />IN PRODUCTION</span></div>
           <div><strong>∞</strong><span>IDEAS<br />IN THE QUEUE</span></div>
           <div><strong>01</strong><span>SHARED<br />VISION</span></div>
         </div>
