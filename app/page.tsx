@@ -77,6 +77,19 @@ const games = [
       <img src="/games/bastion-9.png" alt="Bastion-9 key art showing a post-apocalyptic border inspection terminal and suspected infiltrators" />
     ),
   },
+  {
+    number: "07",
+    title: "CLEAN CASH: SYNDICATE FRONT",
+    type: "NEON-NOIR IDLE CLICKER",
+    status: "IN DEVELOPMENT",
+    copy: "Build a laundering empire in New Carthage. Run street operations, earn Dirty Cash, automate fronts, and scale the network while keeping Federal Heat under control.",
+    className: "game-clean-cash",
+    href: "#contact",
+    cta: "MORE SOON",
+    visual: (
+      <img src="/games/clean-cash-syndicate-front.png" alt="Clean Cash Syndicate Front key art showing a neon city, automated fronts, and Federal Heat systems" />
+    ),
+  },
 ];
 
 function Logo() {
@@ -162,7 +175,7 @@ export default function Home() {
           </div>
         </div>
         <div className="stats" aria-label="Studio facts">
-          <div><strong>06</strong><span>TITLES<br />IN PRODUCTION</span></div>
+          <div><strong>07</strong><span>TITLES<br />IN PRODUCTION</span></div>
           <div><strong>∞</strong><span>IDEAS<br />IN THE QUEUE</span></div>
           <div><strong>01</strong><span>SHARED<br />VISION</span></div>
         </div>
