@@ -51,6 +51,19 @@ const games = [
       <img src="/games/ministry-of-apocalypse-preparedness.png" alt="Ministry of Apocalypse Preparedness key art showing an underground government crisis room and strategic map" />
     ),
   },
+  {
+    number: "05",
+    title: "PHARMA CORPORATION",
+    type: "MANAGEMENT / INCREMENTAL STRATEGY",
+    status: "IN DEVELOPMENT",
+    copy: "Build a pharmaceutical empire from the ground up. Produce supplements, secure pharmacy contracts, develop new formulations, manage research and clinical trials, and expand into global markets.",
+    className: "game-pharma",
+    href: "#contact",
+    cta: "MORE SOON",
+    visual: (
+      <img src="/games/pharma-corporation.jpg" alt="Pharma Corporation key art showing an automated pharmaceutical production line and global research facility" />
+    ),
+  },
 ];
 
 function Logo() {
@@ -136,7 +149,7 @@ export default function Home() {
           </div>
         </div>
         <div className="stats" aria-label="Studio facts">
-          <div><strong>04</strong><span>TITLES<br />IN PRODUCTION</span></div>
+          <div><strong>05</strong><span>TITLES<br />IN PRODUCTION</span></div>
           <div><strong>∞</strong><span>IDEAS<br />IN THE QUEUE</span></div>
           <div><strong>01</strong><span>SHARED<br />VISION</span></div>
         </div>
