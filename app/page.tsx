@@ -64,6 +64,19 @@ const games = [
       <img src="/games/pharma-corporation.jpg" alt="Pharma Corporation key art showing an automated pharmaceutical production line and global research facility" />
     ),
   },
+  {
+    number: "06",
+    title: "BASTION-9",
+    type: "SCI-FI BORDER INSPECTION / MORAL CHOICES",
+    status: "IN DEVELOPMENT",
+    copy: "Decide who enters the last shelter. Inspect documents, interrogate travelers, uncover mutants, smugglers, and synthetic infiltrators — then live with every consequence.",
+    className: "game-bastion",
+    href: "#contact",
+    cta: "MORE SOON",
+    visual: (
+      <img src="/games/bastion-9.png" alt="Bastion-9 key art showing a post-apocalyptic border inspection terminal and suspected infiltrators" />
+    ),
+  },
 ];
 
 function Logo() {
@@ -149,7 +162,7 @@ export default function Home() {
           </div>
         </div>
         <div className="stats" aria-label="Studio facts">
-          <div><strong>05</strong><span>TITLES<br />IN PRODUCTION</span></div>
+          <div><strong>06</strong><span>TITLES<br />IN PRODUCTION</span></div>
           <div><strong>∞</strong><span>IDEAS<br />IN THE QUEUE</span></div>
           <div><strong>01</strong><span>SHARED<br />VISION</span></div>
         </div>
