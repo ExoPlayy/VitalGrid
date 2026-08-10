@@ -9,7 +9,7 @@ const games = [
     href: "https://store.steampowered.com/app/3594540/Orbital_Checkpoint/",
     cta: "WISHLIST ON STEAM",
     visual: (
-      <img src="/games/orbital-checkpoint.jpg" alt="Orbital Checkpoint gameplay showing an alien traveller and a galactic passport at the inspection desk" />
+      <img src="/games/orbital-checkpoint-key-art-v2.png" alt="Orbital Checkpoint key art showing an alien traveller presenting documents at an orbital inspection desk" />
     ),
   },
   {
@@ -22,7 +22,7 @@ const games = [
     href: "https://store.steampowered.com/app/4924680/Cratebreaker_Wasteland_Workshop/",
     cta: "WISHLIST ON STEAM",
     visual: (
-      <img src="/games/cratebreaker.jpg" alt="Cratebreaker Wasteland Workshop gameplay showing the workshop, salvage crates, and inventory" />
+      <img src="/games/cratebreaker-key-art-v2.png" alt="Cratebreaker Wasteland Workshop key art showing a survivor breaking open a glowing salvage crate" />
     ),
   },
   {
@@ -74,7 +74,7 @@ const games = [
     href: "#contact",
     cta: "MORE SOON",
     visual: (
-      <img src="/games/bastion-9.png" alt="Bastion-9 key art showing a post-apocalyptic border inspection terminal and suspected infiltrators" />
+      <img src="/games/bastion-9-key-art-v2.png" alt="Bastion-9 key art showing a synthetic infiltrator being inspected at the last shelter checkpoint" />
     ),
   },
   {
@@ -87,7 +87,7 @@ const games = [
     href: "#contact",
     cta: "MORE SOON",
     visual: (
-      <img src="/games/clean-cash-syndicate-front.png" alt="Clean Cash Syndicate Front key art showing a neon city, automated fronts, and Federal Heat systems" />
+      <img src="/games/clean-cash-key-art-v2.png" alt="Clean Cash Syndicate Front key art showing a neon-noir laundering operation as federal agents close in" />
     ),
   },
   {
@@ -100,7 +100,7 @@ const games = [
     href: "#contact",
     cta: "MORE SOON",
     visual: (
-      <img src="/games/alien-invasion-inc.png" alt="Alien Invasion Inc. key art showing a global invasion command map, terror levels, and Earth defense status" />
+      <img src="/games/alien-invasion-key-art-v2.png" alt="Alien Invasion Inc. key art showing alien strategists directing an invasion around a holographic Earth" />
     ),
   },
   {
@@ -113,7 +113,7 @@ const games = [
     href: "#contact",
     cta: "MORE SOON",
     visual: (
-      <img src="/games/paradise-control.png" alt="Paradise Control key art showing suspicious travelers and luggage at a tropical island airport customs checkpoint" />
+      <img src="/games/paradise-control-key-art-v2.png" alt="Paradise Control key art showing a chaotic luggage inspection at a tropical island airport" />
     ),
   },
   {
