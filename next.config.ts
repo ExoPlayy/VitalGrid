@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  trailingSlash: true,
+  typescript: {
+    tsconfigPath: "tsconfig.pages.json",
+  },
 };
 
 export default nextConfig;
